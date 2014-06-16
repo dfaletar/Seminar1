@@ -1,0 +1,246 @@
+/* Vaši stilovi */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+img { max-width: 100%; }
+
+h1 {
+  color: #FFF;
+}
+
+h2, h3 {
+  color: #6B1C10;
+}
+
+th {
+  color: #6B1C10;
+}
+
+.site-header { 
+  background: #6B1C10; 
+  padding: 10px 0;
+  -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  top: 0;
+}
+
+.logo {
+  float: left;
+  margin: 0 0 0 5px;
+}
+
+
+.site-footer a {
+  display: inline-block;
+  padding: 10px 18px;
+}
+
+.naslov{
+	padding-top:25px;
+}
+
+.intro {
+  background: url(images/firenca.jpg) no-repeat;
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.intro1 {
+  background: url(images/katedrala.jpg) no-repeat;
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.intro2 {
+  background: url(images/uffizi-gallery_cover.jpg) no-repeat;
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.intro3 {
+  background: url(images/palazzo_pitti.jpg) no-repeat;
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.intro4 {
+  background: url(images/ponte_vecchio.jpg) no-repeat;
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.intro5{
+  background: url(images/bazilika_San_Lorenzo2.jpg) no-repeat;
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.intro6 {
+  background: url(images/bazilika_svetog_krsta.jpg) no-repeat;
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.intro-overlay {
+  position: absolute;
+  top: 450px;
+  left: 400px;
+  width: 100%;
+  text-align: left;
+  padding: 20px 0;
+  color: #FFF;
+  text-align: center;
+  opacity:1;
+}
+
+.intro-overlay h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #FFF;
+}
+
+.intro-overlay p {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 28px;
+  font-weight: 300;
+
+}
+
+.gray-boxes {
+  margin: 5% auto;
+  position: relative;
+}
+
+.gray-boxes1 {
+  margin: 10% auto;
+  position: relative;
+}
+
+.intro .row {
+  position: relative;
+}
+
+.intro h1 {
+  margin: 0;
+}
+
+.clanak {
+  color: #FFF;
+  background: #6B1C10;
+  padding: 6% 0;
+}
+
+
+.clanak h2, .clanak p, .clanak h1 {
+  margin: 0;
+  color: #FFF;
+}
+
+.clanak article {
+  margin-top: 30px;
+}
+
+.clanak img {
+  float: left;
+  margin-right: 10px;
+}
+
+.clanak article h2 {
+  margin: 0;
+}
+
+.clanak a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.wrapper > article > table{
+	text-align: left;
+}
+
+.wrapper > article > table th{
+	padding: 15px;
+}
+
+.site-footer {
+	text-align: center;
+	padding: 10px;
+	background: #6B1C10;
+	color: white;
+}
+
+.slide1 {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  opacity: 0;
+}
+
+@media only screen and (max-width:480px) {
+  .column { width: 47%; margin: 0; padding: 0 10px 0 0; box-sizing: border-box; }
+}
+
+
+.slide1 {
+  -webkit-animation: slider 7s infinite linear;
+   animation: slider 7s infinite linear;
+}
+
+/*.slide2 {
+  -webkit-animation: slider2 5s 0 infinite linear;
+}*/
+
+
+@-webkit-keyframes slider {
+    5%,25% { opacity: 0; }
+    25%, 100% { opacity: 0.8; }
+}
+
+@keyframes slider {
+    5%,25% { opacity: 0; }
+    25%, 100% { opacity: 0.8; }
+}
+
+
+
+
+.ikone{
+  position: relative;
+  padding-top: 20px;
+  display: inline;
+}
+
+.desnoSlika{
+	position: relative;
+	text-align: center;
+}
+
